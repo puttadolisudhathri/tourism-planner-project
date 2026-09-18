@@ -1,0 +1,232 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.55),
+            rgba(0, 0, 0, 0.55)
+        ),
+        url("https://images.unsplash.com/photo-1500534623283-312aade485b7");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+
+}
+
+
+/* ================= CONTAINER ================= */
+
+.auth-container {
+
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 20px;
+
+}
+
+
+/* ================= LOGIN / REGISTER BOX ================= */
+
+.auth-box {
+
+    width: 400px;
+
+    max-width: 100%;
+
+    padding: 35px;
+
+    background: white;
+
+    border-radius: 15px;
+
+    box-shadow:
+        0 5px 25px rgba(0, 0, 0, 0.3);
+
+}
+
+
+/* ================= TITLE ================= */
+
+.auth-box h1 {
+
+    text-align: center;
+
+    margin-bottom: 10px;
+
+    color: #0d6efd;
+
+    font-size: 28px;
+
+}
+
+
+.auth-box h2 {
+
+    text-align: center;
+
+    margin-bottom: 10px;
+
+    color: #333;
+
+}
+
+
+/* ================= TEXT ================= */
+
+.welcome-text {
+
+    text-align: center;
+
+    color: #777;
+
+    margin-bottom: 25px;
+
+}
+
+
+/* ================= LABEL ================= */
+
+.auth-box label {
+
+    display: block;
+
+    margin-top: 15px;
+
+    margin-bottom: 6px;
+
+    font-weight: bold;
+
+    color: #333;
+
+}
+
+
+/* ================= INPUT ================= */
+
+.auth-box input {
+
+    width: 100%;
+
+    padding: 12px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 6px;
+
+    font-size: 15px;
+
+}
+
+
+.auth-box input:focus {
+
+    outline: none;
+
+    border-color: #0d6efd;
+
+    box-shadow:
+        0 0 5px rgba(13, 110, 253, 0.3);
+
+}
+
+
+/* ================= BUTTON ================= */
+
+.auth-box button {
+
+    width: 100%;
+
+    padding: 12px;
+
+    margin-top: 25px;
+
+    border: none;
+
+    border-radius: 6px;
+
+    background: #0d6efd;
+
+    color: white;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+}
+
+
+.auth-box button:hover {
+
+    background: #0b5ed7;
+
+}
+
+
+/* ================= ACCOUNT TEXT ================= */
+
+.account-text {
+
+    text-align: center;
+
+    margin-top: 20px;
+
+    color: #555;
+
+}
+
+
+.account-text a {
+
+    color: #0d6efd;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+}
+
+
+.account-text a:hover {
+
+    text-decoration: underline;
+
+}
+
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 500px) {
+
+    .auth-box {
+
+        padding: 25px;
+
+    }
+
+    .auth-box h1 {
+
+        font-size: 24px;
+
+    }
+
+}
